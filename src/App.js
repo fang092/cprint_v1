@@ -1,4 +1,4 @@
-import logo from './images/CprintLogo.svg';
+
 import './App.css';
 import Navbar from './components/Navbar';
 import Welcome from './components/Welcome';
