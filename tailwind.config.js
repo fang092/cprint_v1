@@ -24,7 +24,9 @@ module.exports = {
         'cprintBlue' : '#35A7FF'
       },
       backgroundImage:{
-        'welcome': "url(./images/comic.jpg)"
+        'welcome': "url(./images/comic.jpg)",
+        'hatch':"url(./images/streakbg.svg)"
+
 
       },
 
