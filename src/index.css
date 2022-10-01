@@ -30,6 +30,7 @@
   #features{
     @apply bg-gradient-to-t to-white from-cprintBlue
   }
+ 
 
   .CprintBtn
   {
@@ -42,5 +43,14 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+section#reviews div::-webkit-scrollbar{
+
+  display:none;
+}
+section#reviews div{
+
+  -ms-overflow-style:none;
+  scrollbar-width:none;
 }
 
