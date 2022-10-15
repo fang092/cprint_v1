@@ -3,10 +3,10 @@ import logo from '../images/CprintLogo.svg'
 
 function Welcome() {
   return (
-    <section id="welcome" className='w-full h-full bg-welcome bg-cover '>
+    <section id="welcome" className='w-full h-[750px] bg-welcome bg-cover '>
         <div className="w-full h-full bg-black/40 ">
             <div className="flex flex-row w-full h-fit">
-                <nav className='w-full h-14 flex flex-row justify-start items-center p-10 z-40'>
+                <nav className='w-full h-14 flex flex-row justify-start items-center p-10'>
                         <div className='flex justify-start items-center xs:w-1/5sm:w-1/2 md:w-1/2 lg:w-1/2' >
                             <a href="#home">
                                 <img src={logo} className=" w-16 h-auto" alt='C-Print Logo'/>
@@ -23,7 +23,7 @@ function Welcome() {
                 </nav>
             </div>
             <div className="flex flex-row w-full h-fit ">
-                <div className='flex flex-row w-full h-full pt-96 p-6 '>
+                <div className='flex flex-row w-full h-full pt-12 p-6 '>
                 
                 
                     <div className='flex flex-col w-1/5 h-fit p-12 space-y-8 xs:w-4/5 sm:w-3/4 md:w-1/2 lg:w-1/2'>
