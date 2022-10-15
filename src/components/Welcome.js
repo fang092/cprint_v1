@@ -6,17 +6,17 @@ function Welcome() {
     <section id="welcome" className='w-full h-full bg-welcome bg-cover '>
         <div className="w-full h-full bg-black/40 ">
             <div className="flex flex-row w-full h-fit">
-                <nav className='w-full h-14 flex flex-row justify-start items-center p-10  z-40'>
-                        <div className='flex justify-start items-center xs:w-1/2 sm:w-1/2 md:w-1/2 lg:w-1/2' >
+                <nav className='w-full h-14 flex flex-row justify-start items-center p-10 z-40'>
+                        <div className='flex justify-start items-center xs:w-1/5sm:w-1/2 md:w-1/2 lg:w-1/2' >
                             <a href="#home">
                                 <img src={logo} className=" w-16 h-auto" alt='C-Print Logo'/>
                             </a>
                         </div>
-                        <div className=' flex justify-end items-center space-x-6 xs:w-1/2   sm:w-1/2 md:w-1/2 lg:w-1/2'>
-                            <button className='CprintBtn text-2xl xs:text-lg xs:w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/6'>
+                        <div className=' flex justify-end items-center space-x-6 xs:w-4/5  sm:w-1/2 md:w-1/2 lg:w-1/2'>
+                            <button className='CprintBtn text-2xl xs:text-lg xs:w-fit sm:w-1/2 md:w-1/4 lg:w-1/6'>
                                 Log In
                             </button>
-                            <a href='#SignUp' className='font-bold  text-white text-2xl xs:text-lg xs:w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/6'>
+                            <a href='#SignUp' className='font-bold  text-white text-2xl xs:text-lg xs:w-fit sm:w-1/2 md:w-1/4 lg:w-1/6'>
                                 Sign Up
                             </a>
                         </div>
