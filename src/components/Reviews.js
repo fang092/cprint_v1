@@ -5,7 +5,7 @@ import ScrollContainer from 'react-indiana-drag-scroll'
 
 function Reviews() {
   return (
-    <section id="reviews" className='w-full h-auto mt-32 mb-16'>
+    <section id="reviews" className=' w-full h-auto mt-32 mb-16'>
 
         <ScrollContainer className='w-[85%] m-auto mt-5  h-auto  '>
             <div className=' flex flex-row space-x-4 p-4 divide-x-2 '>
@@ -109,6 +109,11 @@ function Reviews() {
 
 
         </ScrollContainer>
+        <div className='w-full h-fit flex flex-row justify-center items-center mt-20'>
+            <button className='CprintBtn text-3xl   lg:text-3xl lg:p-3 '>
+                    Sign Up
+            </button>
+        </div>
       
     </section>
   )

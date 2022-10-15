@@ -26,7 +26,7 @@ function Features() {
                     <div className=' flex flex-col w-1/4 h-fit  items-center p-6 xs:w-4/5 sm:w-1/2 md:w-1/3 lg:w-1/4'>
                         <img className="w-16 h-16 mb-4" src={variety} alt="variety"/>
                         <p className='text-center text-xl'>
-                            We have a variety of paper and printing technigues to suit any need!
+                            We have a variety of paper and printing techniques to suit any need!
                         </p>
                     </div>
                 </div>

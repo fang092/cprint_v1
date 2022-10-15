@@ -8,6 +8,12 @@
   src:url("Fredoka-VariableFont.ttf")
 }
 
+@font-face{
+
+font-family: "LatoReg";
+src:url("Lato-Regular.ttf")
+}
+
 
 @layer base {
 
@@ -34,7 +40,11 @@
 
   .CprintBtn
   {
-    @apply w-fit h-fit p-1 bg-cprintYellow border-2 border-black  font-bold
+    @apply w-fit h-fit p-2 bg-cprintYellow  font-bold
+  }
+  #email
+  {
+      @apply shadow-xl p-2 rounded-lg border-2 border-cprintRed bg-none 
   }
 }
 

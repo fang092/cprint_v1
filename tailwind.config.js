@@ -15,7 +15,9 @@ module.exports = {
     extend: {
       fontFamily:{
 
-        fredoka:["Fredoka", "sans-serif"]
+        fredoka:["Fredoka", "sans-serif"],
+        latoReg:["Lato-Regular", "sans-serif"]
+
       },
       colors: {
         
